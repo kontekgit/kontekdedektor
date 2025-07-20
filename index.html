@@ -1955,77 +1955,7 @@
     });
   });
 </script>
-
-<script id="form-validation-script">
-  document.addEventListener('DOMContentLoaded', function() {
-    const contactForm = document.querySelector('#contact form');
-    if (contactForm) {
-      contactForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        // Simple validation
-        const name = document.getElementById('name');
-        const email = document.getElementById('email');
-        const subject = document.getElementById('subject');
-        const message = document.getElementById('message');
-        const consent = document.getElementById('consent');
-        let isValid = true;
-        
-        if (!name.value.trim()) {
-          name.classList.add('ring-2', 'ring-red-500');
-          isValid = false;
-        } else {
-          name.classList.remove('ring-2', 'ring-red-500');
-        }
-        
-        if (!email.value.trim() || !email.value.includes('@')) {
-          email.classList.add('ring-2', 'ring-red-500');
-          isValid = false;
-        } else {
-          email.classList.remove('ring-2', 'ring-red-500');
-        }
-        
-        if (!subject.value.trim()) {
-          subject.classList.add('ring-2', 'ring-red-500');
-          isValid = false;
-        } else {
-          subject.classList.remove('ring-2', 'ring-red-500');
-        }
-        
-        if (!message.value.trim()) {
-          message.classList.add('ring-2', 'ring-red-500');
-          isValid = false;
-        } else {
-          message.classList.remove('ring-2', 'ring-red-500');
-        }
-        
-        if (!consent.checked) {
-          consent.classList.add('ring-2', 'ring-red-500');
-          isValid = false;
-        } else {
-          consent.classList.remove('ring-2', 'ring-red-500');
-        }
-        
-        if (isValid) {
-          // Show success message
-          const submitButton = contactForm.querySelector('button[type="submit"]');
-          const currentLang = localStorage.getItem('language') || 'tr';
-          const successText = currentLang === 'tr' ? 'Gönderildi' : 'Sent';
-          
-          submitButton.innerHTML = `<i class="ri-check-line mr-2"></i> ${successText}`;
-          submitButton.classList.add('bg-green-600');
-          
-          // Reset form
-          setTimeout(() => {
-            contactForm.reset();
-            submitButton.innerHTML = currentLang === 'tr' ? 'Gönder' : 'Send';
-            submitButton.classList.remove('bg-green-600');
-          }, 3000);
-        }
-      });
-    }
-  });
-</script>
-
+     
 <!-- =================================================
      YENİ SCRIPT: Gemini API Entegrasyonu (Hata Yönetimi İyileştirildi)
      ================================================= -->
