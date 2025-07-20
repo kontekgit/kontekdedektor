@@ -1,0 +1,31 @@
+BU CIHAZIMIZ IKI FAKTORLU ANTEN SISTEMINE SAHIPTIR BIRINCI ANTEN ORTAMA 
+FREKANS YAYARKEN YADIGI FREKANSLARA ETKILESEME GIREN TOPRAK ALTI METALLERIN
+YERINI  DIGER ALICI ANTENLER ILE NOKTASAL TESBIT EDER 
+BUNUN YANINDA METALIN CINSINI DEMIR ICERIKLI VEYA DEMIR OLMAYAN
+YANI DEGERLI VEYA DEGERSIZ OLARAK AYIT ETMEYE OLANK SAGLAR 
+ORTALAMA UZAKLIK DEGERI 15 ILA 20 MT OLARAK DEGISIR 
+METAL ALGILAMA DERINLIGI ISE 50CM ILE METALIN BUYUKLUGUNE
+GORE 2MT YE KADAR INER
+
+
+
+
+Cihazın Anten Sistemi:
+
+Bu cihaz, iki faktörlü anten sistemine sahiptir. Birinci anten, ortama frekans yayarken, yaydığı frekanslarla etkileşime giren yer altındaki metallerin yerini tespit etmek için kullanılır. Bu anten, metallerin yaydığı frekansları algılayarak, metalin tam yerini belirler.
+
+Noktasal Metal Tespiti:
+
+Cihaz, etkileşimde bulunan yer altındaki metallerin yerini, diğer alıcı antenlerle noktasal olarak tespit eder. Bu, yüksek hassasiyetle metalin tam yerinin belirlenmesini sağlar.
+
+Metal Türü Ayırt Etme:
+
+Cihaz, yer altındaki metalin türünü ayırt etme yeteneğine sahiptir. Metalin demir içerikli olup olmadığını, yani değerli ya da değersiz olup olmadığını belirleyebilir. Bu özellik, cihazın metalin türünü analiz etmesine ve kullanıcının değerli metallerle ilgilenmesine olanak tanır.
+
+Uzaklık Değeri:
+
+Cihazın ortalama uzaklık değeri 15 ila 20 metre arasında değişir. Bu mesafe, cihazın metal tespit etme kapasitesine ve çevresel faktörlere göre değişkenlik gösterebilir.
+
+Metal Algılama Derinliği:
+
+Metal algılama derinliği, metalin büyüklüğüne bağlı olarak 50 cm ile 2 metre arasında değişir. Yani, küçük metaller daha sığ derinliklerde algılanırken, büyük metaller daha derinlerden tespit edilebilir.

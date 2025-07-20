@@ -1,0 +1,36 @@
+DIGER GORUNTULEME CIHAZLARINDAN AYIRAN OZELLIK 
+YUKSEK HASSASIYET VE 24 BIT COZUNURLUKTE GORUNTU VEREBILMESIDIR 
+DIGER CIHAZLARLA AYNI DERINLIKLERE SAHIPTIR 
+ISTEGE BAGIL OLARAK SENSOR SAYISI 64 ADETE KADAR COGALTILMAKTADIR 
+
+
+
+Cihazın Özelliği: Bu cihaz, diğer benzer cihazlardan ayıran en belirgin özelliği, yüksek hassasiyetle çalışması ve 24 bit çözünürlükte görüntü verebilmesidir. Bu özellik, cihazın çok daha net ve ayrıntılı görseller sunmasını sağlar. Örneğin, daha düşük çözünürlüklü cihazlar, sadece yüzeysel ve genel bilgileri verebilirken, bu cihaz, çok ince detayları ve yer altındaki yapıların tam konumlarını belirleyebilecek kadar hassas sonuçlar üretir.
+
+Diğer Cihazlarla Fark: Diğer cihazlar genellikle daha düşük çözünürlüklerde çalıştığı için, aradığınız hedefin tam yerini ve yapısını net bir şekilde ortaya koymakta zorlanabilir. Ancak bu cihaz, 24 bit çözünürlük ile yer altındaki yapılar hakkında çok daha ayrıntılı ve doğru veriler sağlar.
+
+2. Derinlik Kapasitesi ve Uygulama Alanı
+Cihazın Özelliği: Bu cihaz, yer altı yapıları ve metaller için derinlik tespiti konusunda oldukça başarılıdır ve menzil kapasitesi yaklaşık olarak 1 kilometreye kadar çıkabilir. Derinlik algılama kapasitesi ise yaklaşık 5 metre civarındadır, ancak daha büyük metaller için bu derinlik 10 metreye kadar çıkabilir. Örneğin, büyük bir metal parçası ya da yer altı yapısı için cihaz, çok daha derinlerden sonuç alabilir.
+
+Diğer Cihazlarla Fark: Diğer cihazlar, aynı derinliklerde çalışsa da bu cihaz, daha net görüntü ve daha fazla veri sunma kapasitesine sahiptir. Örneğin, cihazlar arasındaki farklar, yalnızca metalin derinliğini değil, aynı zamanda çevresindeki diğer yapıları, mineral yoğunluklarını ve herhangi bir yapısal bozulmayı daha hassas şekilde gösterme kapasitesinde belirgindir.
+
+3. Sensör Sayısı ve Esneklik
+Cihazın Özelliği: Cihazda, isteğe bağlı olarak sensör sayısı 64 adete kadar artırılabilir. Bu özellik, cihazın daha geniş bir alanı tarayabilmesini ve çok daha hassas veri toplamasını sağlar. Sensör sayısının artırılması, daha büyük alanları hızlı ve doğru bir şekilde tarayabilmenize olanak tanır. Örneğin, sensör sayısı arttıkça, cihazın algıladığı verilerin doğruluğu ve hassasiyeti artar, bu da daha doğru sonuçlar elde etmenizi sağlar.
+
+Diğer Cihazlarla Fark: Çoğu cihaz, sınırlı sensör sayısıyla çalışır ve bu da tarama süresini uzatabilir ya da verilerin doğruluğunu etkileyebilir. Bu cihazın sensör sayısının artırılabilmesi, özellikle büyük alanların taranmasında büyük bir avantaj sağlar ve daha hassas veri elde etmenize olanak tanır.
+
+4. Farklı Dalga Boyu ve Frekans Gönderimi
+Cihazın Özelliği: Bu cihaz, 3 farklı dalga boyunu değişken frekanslar olarak gönderir. Dalga boyu değişimi, farklı türdeki metallerin ve yapıları tespit etme yeteneğini arttırır. Örneğin, bazı metaller daha yüksek frekansta daha iyi tespit edilirken, bazıları daha düşük frekanslarla daha verimli bir şekilde algılanabilir. Bu sayede cihaz, yer altındaki farklı metalleri ve doğal oluşumları daha doğru bir şekilde tespit eder.
+
+Diğer Cihazlarla Fark: Diğer cihazlar genellikle tek bir dalga boyu kullanarak tespit yapar, bu da cihazın daha sınırlı bir frekans aralığına sahip olmasına ve sadece belirli türdeki metallerin tespit edilmesine neden olabilir. Bu cihaz ise çoklu dalga boyu kullanarak, yer altındaki çok farklı metal ve mineral türlerini aynı anda algılayabilir.
+
+5. Hedefin Doğru Sonuçla Tespiti ve Hata Oranı Azaltma
+Cihazın Özelliği: Cihaz, hedefin doğru bir şekilde tespit edilmesini sağlar ve hata oranını minimuma indirir. Örneğin, cihaz, yanlış sinyalleri dışarıda bırakmak için filtreleme sistemlerine sahiptir. Bu, yer altındaki metallerin doğru konumlarını, derinliklerini ve türlerini güvenilir bir şekilde belirlemenize olanak tanır.
+
+Diğer Cihazlarla Fark: Diğer cihazlar, daha yüksek hata oranlarına sahip olabilir ve bu da yanlış tespitler ve kayıplara yol açabilir. Cihazın filtreleme özellikleri sayesinde yanlış sinyaller büyük ölçüde ortadan kaldırılır ve doğruluk oranı artırılır.
+
+6. Gelişmiş Yazılım ve Veri Analizi
+Cihazın Özelliği: Bu cihaz, Surfer ve Voxler gibi dünya çapında kullanılan yazılımlar ile uyumlu çalışarak, daha derinlemesine analiz yapılmasına olanak tanır. Bu yazılımlar, cihazın verilerini kullanarak daha kapsamlı analizler ve görselleştirmeler yapabilmenizi sağlar.
+
+Diğer Cihazlarla Fark: Diğer cihazlar, genellikle sınırlı yazılım seçenekleri sunar ve bu da cihazın verilerinin analiz edilmesinde kısıtlamalara yol açabilir. Bu cihaz ise güçlü yazılım entegrasyonları sayesinde, verileri daha etkili bir şekilde analiz etmenize ve detaylı görselleştirmelerle sonuçları daha iyi yorumlamanıza yardımcı olur.
+

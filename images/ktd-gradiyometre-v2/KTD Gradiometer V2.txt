@@ -1,0 +1,27 @@
+CIHAZIMIZ 2 ADET SUPER SENSORDEN OLUSMAKTA OLUP GRADYAN HESABI YAPARAK TOPRAKALT 
+ODA TUNEL MAHSEN GIBI YAPILARIN TESBITI ICIN KULLANILMAKTADIR
+ WINDOVS ISLETIM SISTEMINE SAHIPTIR 
+YERALTI YAPILARINI 15MT GIBI CIDDI BIR DERINLIKTE ALGILAMSINI SAGLAYAN 
+ILERI TEKNOLOJI SISTEM VE ANALIZ EDEBILME YETENEGINE SAHIPTIR 
+
+
+
+Cihazın Sensör Yapısı:
+
+Cihaz, 2 adet süper sensörden oluşmaktadır. Bu sensörler, yer altındaki yapıların ve metallerin tespitini yüksek hassasiyetle yapabilmek için kullanılır. Sensörler, yer altındaki farklı oluşumların tespit edilmesinde önemli bir rol oynar.
+
+Gradyan Hesabı ve Yapı Tespiti:
+
+Cihaz, gradyan (farklılık) hesabı yaparak, yer altındaki odalar, tüneller, mahzenler gibi yapıları tespit etmek için kullanılır. Bu hesaplama, yer altındaki farklı yoğunluklar ve yapılar arasındaki farkları algılayarak, doğru ve kesin sonuçlar elde edilmesini sağlar.
+
+İşletim Sistemi:
+
+Cihaz, Windows işletim sistemine sahip bir platformda çalışmaktadır. Bu, kullanıcıların cihazı daha tanıdık bir arayüz ile kullanmalarına olanak tanır ve cihazın analiz süreçlerini daha verimli hale getirir.
+
+Derinlik Algılama Yeteneği:
+
+Cihaz, yer altı yapılarının 15 metreye kadar derinlikte algılanmasını sağlayan ileri teknoloji bir sisteme sahiptir. Bu, cihazın oldukça derinlere inmeden yer altındaki yapıları ve metal varlıkları tespit etmesine olanak tanır.
+
+İleri Teknoloji Sistem ve Analiz Yeteneği:
+
+Cihaz, ileri teknolojiye dayalı sistem ve analiz özelliklerine sahip olup, yer altı yapılarını detaylı bir şekilde analiz edebilme yeteneği sunar. Bu, yer altı yapıları hakkında kapsamlı ve doğru analizler yaparak kullanıcılara değerli bilgiler sağlar.

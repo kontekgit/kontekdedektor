@@ -1,0 +1,33 @@
+CIHAZ TEK SENSORDEN OLUSMAKTA  MANYETOMETRE CIHAZDIR DUNYANIN MANYETIK EKSENINDEKI 
+YERYUZUNDE BOZULAN INSAN ELIYLE DEGISIME UGRAMIS TUM YAPILARI ALGILAMAKLA BEREBER 
+KAYA ICERISINDEKI ALTIN GUMUS DEMIR GIBI DOGA OLAYLARINDAN MEYDANA GELEN BIRKINTILERI 
+YANI KAYA VEYA TOPRAK ICERISINDEKI YOGUN MINERALLERI ALGILAMA YAPAR 
+CIHAZ DERINLIGI YAKLASIK OLARAK 5 MT GIBI BIR DERINLIGE SAHIPTIR 
+WINDOVS ISLETIM SISTEMINE SAHIPTIR 
+
+
+
+
+Cihazın Yapısı ve Tipi:
+
+Cihaz, tek bir sensörden oluşan bir manyetometre cihazıdır. Manyetometreler, manyetik alanları algılayarak yer altındaki metal ve mineralleri tespit etmek için kullanılır.
+
+Manyetik Eksen ve Yapı Tespiti:
+
+Cihaz, dünyanın manyetik eksenindeki değişimlere duyarlıdır ve yeryüzünde, insan eliyle yapılan tüm yapısal değişiklikleri algılar. Bu, özellikle inşa edilen yapılar, madencilik alanları ve benzeri insan yapımı değişikliklerin tespitinde etkilidir.
+
+Doğal Olaylardan Kaynaklanan Bırakıntılar:
+
+Cihaz, kaya içerisindeki altın, gümüş, demir gibi değerli metallerin yanı sıra, doğa olaylarından meydana gelen mineral birikintilerini de tespit edebilir. Bu, yer altındaki minerallerin ve doğal oluşumların detaylı bir şekilde algılanmasını sağlar.
+
+Mineral Yoğunlukları ve Kaya İçeriği Algılama:
+
+Cihaz, kaya ve toprak içerisindeki yoğun mineralleri algılayarak, özellikle yer altındaki doğal kaynakları (değerli metaller gibi) tespit etmekte kullanılabilir.
+
+Derinlik Tespiti:
+
+Cihazın derinlik algılama kapasitesi yaklaşık olarak 5 metre civarındadır. Bu derinlik, cihazın tespit edebileceği metal ve minerallerin yerini belirlemede etkili bir düzeyde olup, daha derin yapılara ulaşmak için daha farklı cihazlar gerekebilir.
+
+İşletim Sistemi:
+
+Cihaz, Windows işletim sistemiyle uyumlu olarak çalışır. Bu, kullanıcıların cihazı tanıdık bir arayüz ile kullanmalarını sağlar ve verilerin daha rahat analiz edilmesine olanak tanır.

@@ -1,0 +1,44 @@
+KTD İyonic
+
+BU CIHAZ YER ALTINDAKI BIR METALIN TOPRAKTA UZUN SURE KALMASINDAN DOLAYI 
+YER YUZUNE YAYDIGI FREKANSI YAKALAMYA YARAR 
+
+METALIN CINSINI DEGERLI YADA DEGERSIZ OLARAK AYIRMA YETENEGI YOKTUR 
+
+CIHAZ UZEINDEKI POTANSIYOMETRE DUZGUN AYRLANDIGI TAKTIRDE BIR TL 
+BUYKLUGUNDEKI BIR METALI 10CM DEN 150 CM METREYE KADAR CIDII BIR DERINLIKTEN 
+TESBIT EDEBILIR VE KUTLE BUYUDUKCE DERINLIK ARTAR 
+
+ORNEGIN BIR 15CM CAPINDAKI BIR KUP VEYA METALI YAKLASIK OLARAK 3 MT YE KADAR TESBIT EDER
+YAKLASIK OLARAK 10MT MESAFEDEN TOPRAK ALTINDA UZUN SURE KALMIS BIR METLI 10MT UZAKLIKTAN
+VE 3MT DERINLIGE KADAR ALGILAMA SAGLAR 
+ 
+
+
+Cihazın Temel Amacı:
+
+Bu cihaz, yer altındaki bir metalin toprakta uzun süre kalmasının ardından yaydığı frekansları yakalamak amacıyla tasarlanmıştır. Bu frekanslar, metalin yer altındaki varlığını işaret eder ve cihaz bu frekansları algılayarak metalin yerini tespit etmeye yardımcı olur.
+
+Metal Türü Ayırt Etme Yeteneği:
+
+Cihaz, yer altındaki metali değerli ya da değersiz olarak ayırt edebilecek özelliklere sahip değildir. Yani, tespit edilen metalin türü hakkında bilgi vermez. Cihaz sadece metalin varlığını ve derinliğini belirler, ancak metalin hangi tür olduğunu (altın, gümüş, demir, vb.) ayırt etme kapasitesine sahip değildir.
+
+Potansiyometre Ayarı ve Derinlik Tespiti:
+
+Cihaz üzerinde bulunan potansiyometre düzgün bir şekilde ayrıldığında, yaklaşık bir TL büyüklüğündeki bir metal, 10 cm ile 150 cm derinlik arasında, doğru bir şekilde tespit edilebilir. Bu, cihazın hassasiyetini ayarlayarak farklı büyüklükteki metallerin yerini ve derinliğini belirlemek için önemlidir.
+
+Metalin büyüklüğü arttıkça, tespit edilebilecek derinlik de artar. Yani, daha büyük metaller, daha derin mesafelerden tespit edilebilir.
+
+Örnek Uygulamalar ve Tespit Mesafeleri:
+
+Örneğin, 15 cm çapında bir metal küp ya da metal parçası, yaklaşık olarak 3 metreye kadar derinlikte ve genişlikte tespit edilebilir. Bu örnek, cihazın metal tespiti yaparken hangi büyüklükteki metallerle ne kadar mesafeden tespit yapabileceğini gösterir.
+
+Tespit Mesafesi ve Derinlik İlişkisi:
+
+Cihaz, yer altındaki bir metalin varlığını belirli bir mesafeden ve derinlikten algılayabilir. Yaklaşık olarak 10 metre mesafeden, toprak altında uzun süre kalmış bir metal, 3 metreye kadar derinlikten algılanabilir.
+
+Cihazın hassasiyeti ve metalin büyüklüğüne göre, bu mesafe ve derinlik değişebilir. Büyük metal parçaları daha derinlerden ve daha uzaktan algılanabilirken, küçük metaller daha yakın mesafelerde ve daha sığ derinliklerde tespit edilebilir.
+
+Toprak Altında Uzun Süre Kalmış Metallerin Tespiti:
+
+Cihaz, toprak altında uzun süre kalmış metallerin varlığını algılamak için özel olarak ayarlanabilir. Bu tür metallerin yaydığı frekans, cihaz tarafından tespit edilerek, metalin yeri ve derinliği hakkında bilgi verilebilir. Bu, özellikle eski ve uzun süre gömülü metallerin tespit edilmesinde önemli bir özelliktir.

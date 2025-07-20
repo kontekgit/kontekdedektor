@@ -1,0 +1,37 @@
+CIHAZIMIZ 2 ADET L L CUBUK VE BIR ADET SINYAL URETEN ANA UNITEDEN OLUSMAKTADIR
+BU CIHAZ ICERISINDE BARINDIRDIGI BIR COK FARKLI FREKANSLARI CUBUKLAR 
+YARDIMI ILE YERYUZUNE YAYARAK ARANILAN FREKANSI EN HIZLI BICIMDE BULMANIZA 
+OLANAK SUNAR MENZILUZAKLIGI YAKLASIK LARAK 1 KM 
+DERINLIK ISE YUZLERCE METREYE KADAR INEBILIR 
+
+3 FARKLI DALGA BOYUTUNU DEGISKEN FREKANS OLARAK GONDERIR 
+BU DA SIZIN ARADIGINIZ HEDEFI DOGRU SONUCU ALMANIZI SAGLAYARAK HATA ORANINI 
+EN MINIMIZE SEKILDE FILITRELER 
+
+
+
+Cihazın Yapısı ve Bileşenleri:
+
+Cihaz, 2 adet L tipi çubuk ve bir adet sinyal üreten ana üniteden oluşmaktadır. Bu bileşenler, cihazın yer altındaki metal ve yapıları tespit etme yeteneğini sağlar.
+
+Frekans Yayma ve Hedef Tespiti:
+
+Cihaz, içinde barındırdığı birçok farklı frekansı, çubuklar yardımıyla yeryüzüne yayarak, aranan frekansı en hızlı biçimde bulmanıza olanak tanır. Bu özellik, cihazın tespit işlemlerini hızlandırır ve doğru sonuca daha hızlı ulaşmanıza yardımcı olur.
+
+Menzil ve Derinlik Kapasitesi:
+
+Cihazın menzil uzaklığı yaklaşık olarak 1 kilometreye kadar çıkabilir. Bu, cihazın oldukça geniş bir alanı tarayarak hedefi tespit edebilmesini sağlar.
+
+Derinlik kapasitesi ise yüzlerce metreye kadar inebilir. Bu derinlik, cihazın yer altındaki varlıkları tespit etme yeteneğini büyük ölçüde artırır.
+
+Farklı Dalga Boyları ve Frekans Gönderimi:
+
+Cihaz, 3 farklı dalga boyutunu değişken frekans olarak gönderir. Bu, cihazın çok çeşitli metal ve yapıları tespit etmesini sağlar. Farklı frekanslar, yer altındaki farklı türdeki varlıkların tespiti için kullanılabilir.
+
+Hedefin Doğru Sonuçla Tespiti:
+
+Cihaz, hedefin doğru şekilde tespit edilmesini sağlar ve hata oranını minimuma indirir. Bu, kullanıcıların daha doğru ve güvenilir sonuçlar almasına olanak tanır.
+
+Filtreleme ve Hata Oranı Azaltma:
+
+Cihaz, filtreleme sistemine sahiptir, bu da yanlış tespitlerin ve hata oranının minimize edilmesine yardımcı olur. Yani, cihaz sadece doğru verileri alır ve yanlış sinyalleri dışarıda bırakır.
