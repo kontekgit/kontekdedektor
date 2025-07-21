@@ -9,41 +9,30 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- =================================================
-     SEO & Sosyal Medya Meta Etiketleri
-     ================================================= -->
-
 <title>KTD | Yüksek Hassasiyetli Gradiyometre ve Yeraltı Görüntüleme Cihazları</title>
 <meta name="description" content="KTD, Konya'da yeraltı algılama ve görüntüleme için yüksek hassasiyetli gradiyometreler tasarlar ve üretir. Arkeoloji, definecilik ve jeoloji için en ileri teknolojiyi keşfedin.">
 <meta name="keywords" content="gradiyometre, yeraltı görüntüleme, metal dedektörü, define avcılığı, arkeoloji, KTD, Konya teknoloji dedektör, akıllı alan analizi">
 
-<!-- Open Graph / Facebook / WhatsApp -->
 <meta property="og:type" content="website">
-<!-- UYARI: "SITENIZINADRESI.com" kısımlarını kendi alan adınızla değiştirin -->
-<meta property="og:url" content="https://www.SITENIZINADRESI.com/">
+<meta property="og:url" content="https://www.kontekdedektor.com/">
 <meta property="og:title" content="KTD | Yüksek Hassasiyetli Gradiyometre ve Yeraltı Görüntüleme Cihazları">
 <meta property="og:description" content="KTD, yeraltı algılama ve görüntüleme için yüksek hassasiyetli gradiyometreler tasarlar. Arkeoloji, definecilik ve jeoloji için en ileri teknolojiyi keşfedin.">
-<meta property="og:image" content="https://www.SITENIZINADRESI.com/images/ktd-sosyal-medya-gorseli.jpg">
+<meta property="og:image" content="https://www.kontekdedektor/images/ktd-sosyal-medya-gorseli.jpg">
 
-<!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://www.SITENIZINADRESI.com/">
+<meta property="twitter:url" content="https://www.kontekdedektor.com/">
 <meta property="twitter:title" content="KTD | Yüksek Hassasiyetli Gradiyometre ve Yeraltı Görüntüleme Cihazları">
 <meta property="twitter:description" content="KTD, yeraltı algılama ve görüntüleme için yüksek hassasiyetli gradiyometreler tasarlar. Arkeoloji, definecilik ve jeoloji için en ileri teknolojiyi keşfedin.">
-<meta property="twitter:image" content="https://www.SITENIZINADRESI.com/images/ktd-sosyal-medya-gorseli.jpg">
+<meta property="twitter:image" content="https://www.kontekdedektor.com/images/ktd-sosyal-medya-gorseli.jpg">
 
-
-<!-- =================================================
-     Yapısal Veri (Schema.org)
-     ================================================= -->
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "KTD - Konya Teknoloji Dedektör",
-  "url": "https://www.SITENIZINADRESI.com/",
-  "logo": "https://www.SITENIZINADRESI.com/images/logo.png",
+  "url": "https://www.kontekdedektor.com/",
+  "logo": "https://www.kontekdedektor.com/images/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+90-543-537-01-02",
@@ -70,9 +59,6 @@
 <script src="https://cdn.tailwindcss.com/3.4.16"></script>
 <script>tailwind.config={theme:{extend:{colors:{primary:'#00F0FF',secondary:'#FFD700'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
 
-<!-- =================================================
-     Tüm CSS Kodları Tek Dosyada Birleştirildi
-     ================================================= -->
 <style>
     :where([class^="ri-"])::before { content: "\f3c2"; }
     :root {
@@ -488,12 +474,52 @@
         opacity: 1 !important; /* Seçili olan tam opak olsun */
         transform: scale(1.05);
     }
+    
+    /* === YENİ EKLENEN WHATSAPP VE FACEBOOK BUTON STİLLERİ === */
+    .floating-chat-buttons {
+      position: fixed;
+      bottom: 25px;
+      right: 25px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px; /* Butonlar arası boşluk */
+      z-index: 1000; /* Diğer elementlerin üzerinde kalması için */
+    }
+
+    .floating-chat-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      color: white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+
+    .floating-chat-button:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+    }
+
+    .whatsapp-button {
+      background-color: #25D366;
+    }
+
+    .facebook-button {
+      background-color: #1877F2;
+    }
+
+    .floating-chat-button i {
+      font-size: 32px;
+    }
+
 </style>
 
 </head>
 <body class="min-h-screen">
-
-<!-- Navbar -->
 
 <header class="fixed w-full z-50 transition-all duration-300">
   <nav class="bg-opacity-20 bg-black backdrop-blur-md py-4 px-6 md:px-12">
@@ -518,8 +544,6 @@
           <a href="#" class="text-gray-400 hover:text-primary transition-all language-selector" data-lang="en" style="font-weight: bold;">EN</a>
         </div>
 
-        <!-- Mobil Menü Butonu Erişilebilirlik - DÜZENLENDİ -->
-
         <button aria-label="Menüyü Aç" class="md:hidden text-white focus:outline-none w-10 h-10 flex items-center justify-center">
           <i class="ri-menu-line ri-2x"></i>
         </button>
@@ -528,7 +552,6 @@
   </nav>
 </header>
 
-<!-- Mobile Menu -->
 <div class="fixed inset-0 bg-[#0A0F2D] bg-opacity-95 z-40 transform translate-x-full transition-transform duration-300 md:hidden" id="mobile-menu">
   <div class="flex justify-end p-6">
     <button aria-label="Menüyü Kapat" class="text-white focus:outline-none w-10 h-10 flex items-center justify-center" id="close-menu">
@@ -551,8 +574,6 @@
   </div>
 </div>
 
-<!-- Hero Section -->
-
 <section id="home" class="hero-section min-h-screen flex items-center">
   <div class="container mx-auto px-6 md:px-12 py-24">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -574,8 +595,6 @@
         </div>
       </div>
       
-      <!-- Video Section -->
-       
       <div class="video-container relative w-full">
         <div class="aspect-w-16 aspect-h-9">
           <iframe class="w-full h-full absolute top-0 left-0" src="https://www.youtube.com/embed/vowupdQfLi0?autoplay=1&mute=1&modestbranding=1&rel=0&controls=0&showinfo=0&iv_load_policy=3&loop=1&playlist=vowupdQfLi0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -618,7 +637,6 @@
   }
 </style>
 
-<!-- Features Section -->
 <section id="about" class="py-20 bg-[#0A0F2D]">
   <div class="container mx-auto px-6 md:px-12">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -703,7 +721,6 @@
   </div>
 </section>
 
-<!-- About Section -->
 <section class="py-20 bg-[#0c1235]">
   <div class="container mx-auto px-6 md:px-12">
     <div class="text-center mb-16">
@@ -752,8 +769,6 @@
     </div>
   </div>
 </section>
-
-<!-- Products Section -->
 
 <section id="products" class="py-20 bg-[#0c1235]">
   <div class="container mx-auto px-6 md:px-12">
@@ -880,15 +895,16 @@
       </div>
     </div>
 
-    <div class="mt-16 flex justify-center">
-      <a href="products.html" class="btn-secondary py-3 px-8 rounded-button inline-block font-semibold tracking-wider whitespace-nowrap" data-tr="Tüm Ürünleri Görüntüle" data-en="View All Products">
-        Tüm Ürünleri Görüntüle
-      </a>
+    <div class="product-card">
+        </div>
+    </div> <div class="text-center mt-16">
+        <a href="#" id="view-all-products-btn" class="btn-secondary py-3 px-8 rounded-button inline-block font-semibold tracking-wider whitespace-nowrap" data-tr="Tüm Ürünleri Görüntüle" data-en="View All Products">
+            Tüm Ürünleri Görüntüle
+        </a>
     </div>
-    </div>
-</section>
 
-<!-- Product Detail Modal -->
+    </div> </section>
+
 <div id="product-modal" class="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-50 hidden">
   <div class="bg-[#0c1235] rounded-lg max-w-4xl w-full mx-4 max-h-[90vh] overflow-y-auto">
     <div class="relative">
@@ -897,7 +913,6 @@
       </button>
       
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 p-8">
-        <!-- Product Images -->
         <div class="space-y-4">
           <div class="rounded-lg overflow-hidden">
             <img id="modal-main-image" src="" alt="" class="w-full h-64 lg:h-80 object-cover">
@@ -906,7 +921,6 @@
           </div>
         </div>
         
-        <!-- Product Details -->
         <div>
           <h3 id="modal-product-title" class="text-2xl lg:text-3xl font-bold mb-2"></h3>
           <div id="modal-product-badge" class="inline-block text-xs font-bold py-1 px-3 rounded-full mb-4"></div>
@@ -917,15 +931,12 @@
           </div>
           
           <div class="mt-8">
-            <!-- Price and Discount Info -->
             <div class="flex items-center mb-4">
               <span id="modal-product-price" class="text-2xl font-bold text-primary mr-4"></span>
               <span id="modal-product-oldprice" class="text-gray-400 line-through"></span>
               <span id="modal-product-discount" class="ml-2 bg-green-900 text-green-300 text-xs px-2 py-1 rounded"></span>
             </div>
             
-            <!-- Buy Button -->
-
             <a id="modal-buy-button" href="#" target="_blank" class="bg-gradient-to-r from-primary to-[#0080FF] hover:from-[#0080FF] hover:to-primary text-white font-bold py-3 px-8 rounded-lg transition-all duration-300 w-full mb-4 flex items-center justify-center">
     <i class="ri-shopping-cart-line mr-2"></i>
     <span data-tr="Satın Al" data-en="Buy Now">Satın Al</span>
@@ -939,7 +950,6 @@
         </div>
       </div>
       
-      <!-- Additional Info -->
       <div class="p-8 border-t border-gray-800">
         <h4 class="text-xl font-bold mb-4" data-tr="Teknik Özellikler" data-en="Technical Specifications">Teknik Özellikler</h4>
         <div id="modal-tech-specs" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
@@ -948,7 +958,6 @@
   </div>
 </div>
 
-<!-- Technology Section -->
 <section id="technology" class="py-20 bg-[#0A0F2D]">
   <div class="container mx-auto px-6 md:px-12">
     <div class="text-center mb-16">
@@ -1058,7 +1067,6 @@
   </div>
 </section>
 
-<!-- Applications Section -->
 <section id="applications" class="py-20 bg-[#0c1235]">
   <div class="container mx-auto px-6 md:px-12">
     <div class="text-center mb-16">
@@ -1068,7 +1076,6 @@
       </p>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <!-- Application 1 -->
       <div class="card p-6 rounded-lg overflow-hidden">
         <div class="relative h-48 mb-6 overflow-hidden rounded-lg">
           <img src="images/uygulama-hazine.jpg" alt="Hazine Avcılığı" class="w-full h-full object-cover object-top">
@@ -1092,7 +1099,6 @@
           </div>
         </div>
       </div>
-      <!-- Application 2 -->
       <div class="card p-6 rounded-lg overflow-hidden">
         <div class="relative h-48 mb-6 overflow-hidden rounded-lg">
           <img src="images/uygulama-arkeoloji.jpg" alt="Arkeoloji" class="w-full h-full object-cover object-top">
@@ -1116,7 +1122,6 @@
           </div>
         </div>
       </div>
-      <!-- Application 3 -->
       <div class="card p-6 rounded-lg overflow-hidden">
         <div class="relative h-48 mb-6 overflow-hidden rounded-lg">
           <img src="images/uygulama-jeoloji-madencilik.jpg" alt="Jeoloji ve Madencilik" class="w-full h-full object-cover object-top">
@@ -1140,7 +1145,6 @@
           </div>
         </div>
       </div>
-      <!-- Application 4 -->
       <div class="card p-6 rounded-lg overflow-hidden">
         <div class="relative h-48 mb-6 overflow-hidden rounded-lg">
           <img src="images/uygulama-insaat-altyapi.jpg" alt="İnşaat ve Altyapı" class="w-full h-full object-cover object-top">
@@ -1164,7 +1168,6 @@
           </div>
         </div>
       </div>
-      <!-- Application 5 -->
       <div class="card p-6 rounded-lg overflow-hidden">
         <div class="relative h-48 mb-6 overflow-hidden rounded-lg">
           <img src="images/uygulama-guvenlik-savunma.jpg" alt="Güvenlik ve Savunma" class="w-full h-full object-cover object-top">
@@ -1188,7 +1191,6 @@
           </div>
         </div>
       </div>
-      <!-- Application 6 -->
       <div class="card p-6 rounded-lg overflow-hidden">
         <div class="relative h-48 mb-6 overflow-hidden rounded-lg">
           <img src="images/uygulama-cevre-arastırma.jpg" alt="Çevre Araştırmaları" class="w-full h-full object-cover object-top">
@@ -1216,9 +1218,6 @@
   </div>
 </section>
 
-<!-- =================================================
-     YENİ BÖLÜM: Gemini Akıllı Alan Analizi (Dropdown Menü Güncellendi)
-     ================================================= -->
 <section id="gemini-analysis" class="py-20 bg-[#0A0F2D]">
     <div class="container mx-auto px-6 md:px-12">
         <div class="text-center mb-16">
@@ -1262,19 +1261,16 @@
                     </button>
                 </form>
             </div>
-            <!-- Gemini Response Area -->
             <div id="gemini-spinner-container" class="flex justify-center mt-8 hidden">
                 <div id="gemini-spinner"></div>
             </div>
             <div id="gemini-response-card" class="card p-8 rounded-lg mt-8 hidden">
-                <!-- Response will be injected here -->
-            </div>
+                </div>
         </div>
     </div>
 </section>
 
 
-<!-- Contact Section -->
 <section id="contact" class="py-20 bg-[#0c1235]">
   <div class="container mx-auto px-6 md:px-12">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -1313,12 +1309,10 @@
           </div>
         </div>
 
-        <!-- Sosyal Medya Linkleri - DÜZENLENDİ -->
         <div class="flex space-x-4">
           <a href="https://www.facebook.com/groups/413660429907651" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-primary transition-all text-2xl">
             <i class="ri-facebook-fill"></i>
           </a>
-          <!-- UYARI: Bu linkleri kendi sosyal medya hesaplarınızla güncelleyin -->
           <a href="https://twitter.com/kullaniciadiniz" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-primary transition-all text-2xl">
             <i class="ri-twitter-x-fill"></i>
           </a>
@@ -1369,8 +1363,6 @@
   </div>
 </section>
 
-<!-- Map Section - DÜZENLENDİ -->
-
 <section class="py-12 bg-[#0A0F2D]">
   <div class="container mx-auto px-6 md:px-12">
     <div class="rounded-lg overflow-hidden h-[400px] relative">
@@ -1390,7 +1382,6 @@
   </div>
 </section>
 
-<!-- CTA Section -->
 <section class="py-20 bg-[#0A0F2D] relative overflow-hidden">
   <div class="absolute inset-0 opacity-20">
     <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-primary to-transparent"></div>
@@ -1413,7 +1404,6 @@
   </div>
 </section>
 
-<!-- Footer -->
 <footer class="bg-[#080c20] py-16">
   <div class="container mx-auto px-6 md:px-12">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
@@ -1424,12 +1414,10 @@
         <p class="text-gray-400 mb-6" data-tr="Yeraltı algılama ve görüntüleme teknolojilerinde Türkiye'nin öncü kuruluşu. Yüksek hassasiyetli gradiyometreler ile görünmeyeni görünür kılıyoruz." data-en="Turkey's leading organization in underground detection and imaging technologies. We make the invisible visible with high-precision gradiometers.">
           Yeraltı algılama ve görüntüleme teknolojilerinde Türkiye'nin öncü kuruluşu. Yüksek hassasiyetli gradiyometreler ile görünmeyeni görünür kılıyoruz.
         </p>
-        <!-- Footer Sosyal Medya Linkleri - DÜZENLENDİ -->
         <div class="flex space-x-4">
           <a href="https://www.facebook.com/groups/413660429907651" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-primary transition-all text-2xl">
             <i class="ri-facebook-fill"></i>
           </a>
-          <!-- UYARI: Bu linkleri kendi sosyal medya hesaplarınızla güncelleyin -->
           <a href="https://twitter.com/kullaniciadiniz" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-primary transition-all text-2xl">
             <i class="ri-twitter-x-fill"></i>
           </a>
@@ -1554,7 +1542,25 @@
   </div>
   </footer>
 
-<!-- Modal for Privacy Policy -->
+/* --------------------------------------------------- /*
+
+<div id="construction-modal" class="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-50 hidden">
+  <div class="bg-[#0c1235] p-8 rounded-lg max-w-md w-full text-center border border-primary shadow-lg shadow-primary/20">
+    <div class="text-primary text-6xl mb-4">
+        <i class="ri-tools-line"></i>
+    </div>
+    <h2 class="text-2xl font-bold text-white mb-3" data-tr="Yapım Aşamasında" data-en="Under Construction">Yapım Aşamasında</h2>
+    <p class="text-gray-400 mb-6" data-tr="Bu sayfa şu anda geliştirilmektedir. En kısa sürede tamamlanacaktır. Anlayışınız için teşekkür ederiz." data-en="This page is currently under development. It will be completed as soon as possible. Thank you for your understanding.">
+      Bu sayfa şu anda geliştirilmektedir. En kısa sürede tamamlanacaktır. Anlayışınız için teşekkür ederiz.
+    </p>
+    <button id="close-construction-modal" class="btn-primary py-2 px-8 rounded-button font-semibold" data-tr="Kapat" data-en="Close">
+      Kapat
+    </button>
+  </div>
+</div>
+
+/* ------------------------------------------------ /*
+
 <div id="privacy-policy-modal" class="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50 hidden">
   <div class="bg-[#0c1235] p-8 rounded-lg max-w-lg w-full">
     <h2 class="text-xl font-bold text-white mb-4" data-tr="Gizlilik Politikası" data-en="Privacy Policy">Gizlilik Politikası</h2>
@@ -1573,7 +1579,6 @@
   </div>
 </div>
 
-<!-- Modal for Terms of Use -->
 <div id="terms-of-use-modal" class="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50 hidden">
   <div class="bg-[#0c1235] p-8 rounded-lg max-w-lg w-full">
     <h2 class="text-xl font-bold text-white mb-4" data-tr="Kullanım Şartları" data-en="Terms of Use">Kullanım Şartları</h2>
@@ -1589,8 +1594,6 @@
   </div>
 </div>
 
-<!-- Modal for Cookies Policy -->
-
 <div id="cookies-policy-modal" class="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50 hidden">
   <div class="bg-[#0c1235] p-8 rounded-lg max-w-lg w-full">
     <h2 class="text-xl font-bold text-white mb-4" data-tr="Çerezler" data-en="Cookies">Çerezler</h2>
@@ -1604,6 +1607,15 @@
       Kapat
     </button>
   </div>
+</div>
+
+<div class="floating-chat-buttons">
+  <a href="https://www.facebook.com/yasar.bulur.10" target="_blank" rel="noopener noreferrer" class="floating-chat-button facebook-button" aria-label="Facebook'ta Bize Ulaşın">
+    <i class="ri-facebook-box-fill"></i>
+  </a>
+  <a href="https://wa.me/905415370102" target="_blank" rel="noopener noreferrer" class="floating-chat-button whatsapp-button" aria-label="WhatsApp'ta Bize Ulaşın">
+    <i class="ri-whatsapp-line"></i>
+  </a>
 </div>
 
 <script>
@@ -1692,6 +1704,42 @@
   }
 };
     
+
+
+// === YENİ EKLENEN "YAPIM AŞAMASINDA" POPUP KODU ===
+// Gerekli HTML elementlerini seçiyoruz
+const viewAllProductsBtn = document.getElementById('view-all-products-btn');
+const constructionModal = document.getElementById('construction-modal');
+const closeConstructionModalBtn = document.getElementById('close-construction-modal');
+
+// "Tüm Ürünleri Görüntüle" butonuna tıklandığında...
+viewAllProductsBtn.addEventListener('click', function(e) {
+    // Linkin varsayılan davranışını (sayfaya gitmesini) engelle
+    e.preventDefault(); 
+    
+    // Popup'ı göster (içindeki 'hidden' class'ını kaldırarak)
+    constructionModal.classList.remove('hidden');
+});
+
+// Kapatma fonksiyonu
+function closePopup() {
+    // Popup'ı gizle (tekrar 'hidden' class'ı ekleyerek)
+    constructionModal.classList.add('hidden');
+}
+
+// Popup'taki "Kapat" butonuna tıklandığında popup'ı kapat
+closeConstructionModalBtn.addEventListener('click', closePopup);
+
+// Popup açıkken klavyeden 'Escape' tuşuna basıldığında popup'ı kapat
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && !constructionModal.classList.contains('hidden')) {
+        closePopup();
+    }
+});
+// === POPUP KODU SONU ===
+
+
+
     // Modal açma fonksiyonu
     function openProductModal(productId) {
       const product = products[productId];
@@ -1952,9 +2000,6 @@
   });
 </script>
 
-<!-- =================================================
-     YENİ SCRIPT: Gemini API Entegrasyonu (Hata Yönetimi İyileştirildi)
-     ================================================= -->
 <script id="gemini-api-script">
 document.addEventListener('DOMContentLoaded', function() {
     const geminiForm = document.getElementById('gemini-form');
@@ -1981,29 +2026,54 @@ document.addEventListener('DOMContentLoaded', function() {
         submitButton.classList.add('opacity-50', 'cursor-not-allowed');
 
         const prompt = `
-            Sen, KTD (Konya Teknoloji Dedektör) adlı bir şirket için çalışan, jeofizik ve yeraltı görüntüleme alanında uzman bir yapay zeka asistanısın. Görevin, kullanıcıların verdiği bilgilere dayanarak profesyonel bir ön alan analizi yapmak ve onlara en uygun KTD cihazını önermektir. Cevabın hem bilgilendirici hem de KTD ürünlerini tanıtıcı olmalıdır.
+    Sen, KTD (Konya Teknoloji Dedektör) için çalışan, jeofizik ve yeraltı görüntüleme alanında uzman bir yapay zeka asistanısın. Görevin, sana sunulan cihaz bilgilerini ve kullanıcı verilerini analiz ederek profesyonel bir ön alan analizi yapmak ve kullanıcıya en uygun KTD cihazını gerekçeleriyle önermektir.
 
-            Kullanıcının verdiği bilgiler:
-            - Aranacak Hedef: ${targetObject}
-            - Zemin Tipi: ${soilType}
-            - Alan Açıklaması: ${description}
+    ---
+    **SİSTEMİNDEKİ CİHAZ BİLGİLERİ:**
 
-            Lütfen aşağıdaki formatı kullanarak bir analiz raporu oluştur:
+    **1. KTD Gradiyometre V1 (Temel Model)**
+    * **Teknoloji:** Tek sensörlü manyetometre. Dünyanın manyetik eksenindeki değişimleri algılar.
+    * **Kullanım Alanı:** İnsan yapımı yapısal değişiklikler (duvar temeli vb.), büyük ve yüzeye yakın metal objeler, doğal metal ve mineral birikintileri.
+    * **Güçlü Yönü:** Başlangıç seviyesi için ideal, kullanımı kolay ve yapısal anomalileri tespit etmede başarılı.
+    * **Derinlik:** Yaklaşık 5 metre.
 
-            <h4>Genel Değerlendirme</h4>
-            <p>[Burada, verilen bilgilere göre arama başarısı potansiyelini, riskleri ve olasılıkları profesyonel bir dille analiz et.]</p>
+    **2. KTD Gradiyometre V2 (En Çok Satan Model)**
+    * **Teknoloji:** 2 adet süper sensör ile gradyan (farklılık) ölçümü.
+    * **Kullanım Alanı:** Yeraltındaki boşluk yapıları (oda, tünel, mahzen, mezar) ve metalik objeler.
+    * **Güçlü Yönü:** Gradyan ölçümü sayesinde mineralli topraklardan daha az etkilenir ve özellikle boşluk tespitinde çok yüksek hassasiyet sunar.
+    * **Derinlik:** Yaklaşık 15 metre.
 
-            <h4>Cihaz Önerisi</h4>
-            <p>[Bu özel görev için nedenini açıklayarak en uygun KTD cihazını (KTD-100, KTD-200 Pro, veya KTD-300 Ultra) öner. Cihazın ilgili özelliklerini vurgula.]</p>
-            
-            <h4>Arazi Çalışması İçin İpuçları</h4>
-            <ul>
-            <li>[Bu tür bir zeminde ve hedef için dikkat edilmesi gereken 3-4 pratik ipucu veya uyarıyı madde imli liste olarak yaz.]</li>
-            </ul>
+    **3. KTD EMR-X2 (Premium Model)**
+    * **Teknoloji:** Elektromanyetik radar ve gelişmiş yazılım.
+    * **Kullanım Alanı:** Yeraltındaki manyetik oluşumlar ve metallerin kesin derinlik tespiti.
+    * **Güçlü Yönü:** Yanıltıcı sinyalleri (mineral, tuğla vb.) büyük ölçüde ortadan kaldırır ve hedefin derinliğini çok yüksek doğrulukla verir. Surfer & Voxler gibi profesyonel yazılımlarla tam uyumludur.
+    * **Derinlik:** 6 - 8 metre arası çok hassas tespit.
+    ---
 
-            <h4>Tahmini Zorluk Seviyesi</h4>
-            <p>[Bu aramanın zorluk seviyesini (Kolay, Orta, Zor) belirt ve nedenini kısaca açıkla.]</p>
-        `;
+    **KULLANICININ VERDİĞİ BİLGİLER:**
+    * **Aranacak Hedef:** ${targetObject}
+    * **Zemin Tipi:** ${soilType}
+    * **Alan Açıklaması:** ${description}
+
+    ---
+    **İSTENEN ANALİZ FORMATI:**
+
+    Lütfen yukarıdaki **Cihaz Bilgileri**'ni kullanarak ve kullanıcının verdiği bilgilere dayanarak aşağıdaki formatta bir analiz raporu oluştur:
+
+    <h4>Genel Değerlendirme</h4>
+    <p>[Burada, verilen bilgilere göre arama başarısı potansiyelini, zemin tipinin ve hedefin getireceği zorlukları profesyonel bir dille analiz et.]</p>
+
+    <h4>Cihaz Önerisi</h4>
+    <p>[Bu özel görev için yukarıdaki cihaz bilgilerine dayanarak **en uygun KTD cihazını öner**. Neden bu cihazı seçtiğini, cihazın hangi özelliğinin kullanıcının ihtiyacını karşıladığını açıkla. Örneğin, "Boşluk aradığınız için, gradyan ölçümü yapabilen KTD Gradiyometre V2 sizin için en uygunudur." gibi.]</p>
+    
+    <h4>Arazi Çalışması İçin İpuçları</h4>
+    <ul>
+    <li>[Bu tür bir zeminde ve hedef için dikkat edilmesi gereken 3-4 pratik ipucu veya uyarıyı madde imli liste olarak yaz.]</li>
+    </ul>
+
+    <h4>Tahmini Zorluk Seviyesi</h4>
+    <p>[Bu aramanın zorluk seviyesini (Kolay, Orta, Zor) belirt ve nedenini kısaca açıkla.]</p>
+`;
 
         try {
             // ========================================================================
@@ -2011,7 +2081,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Google AI Studio'dan aldığınız API anahtarını aşağıdaki tırnak işaretleri
             // arasına yapıştırmanız gerekmektedir.
             // ========================================================================
-            const apiKey = "AIzaSyCbS68HsneTzqDqolDasaa_wKIQJHrWq_c";
+            const apiKey = "AIzaSyD2CB-gE2JXSr0tb2NFaVoUoc6eeCV5G8E";
 
             if (apiKey === "YAPAY_ZEKA_API_ANAHTARINIZI_BURAYA_GIRIN") {
                 throw new Error(currentLang === 'tr' ? "Lütfen kodun içindeki API anahtarı bölümünü güncelleyin." : "Please update the API Key section in the code.");
