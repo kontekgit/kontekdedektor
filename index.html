@@ -408,7 +408,7 @@
       transform: rotate(90deg);
     }
     
-    /* Scrollbar customization */
+    
     #product-modal::-webkit-scrollbar {
       width: 8px;
     }
@@ -421,7 +421,7 @@
       background-color: #00F0FF;
       border-radius: 20px;
     }
-    /* Gemini Alan Analizi Stilleri */
+
     #gemini-spinner {
         border: 4px solid rgba(255, 255, 255, 0.2);
         border-left-color: var(--accent-blue);
@@ -462,28 +462,28 @@
         font-weight: bold;
     }
     
-     /* === SEÇİLİ GÖRSEL İÇİN YENİ STİLLER === */
+     
     .thumbnail {
         cursor: pointer;
         transition: all 0.2s ease-in-out;
-        border: 2px solid transparent; /* Varsayılan olarak şeffaf çerçeve */
-        opacity: 0.6; /* Seçili olmayanlar soluk olsun */
+        border: 2px solid transparent; 
+        opacity: 0.6; 
     }
     .thumbnail.selected {
-        border-color: var(--accent-blue); /* Seçili olanın çerçevesi mavi olsun */
-        opacity: 1 !important; /* Seçili olan tam opak olsun */
+        border-color: var(--accent-blue); 
+        opacity: 1 !important; 
         transform: scale(1.05);
     }
     
-    /* === YENİ EKLENEN WHATSAPP VE FACEBOOK BUTON STİLLERİ === */
+    
     .floating-chat-buttons {
       position: fixed;
       bottom: 25px;
       right: 25px;
       display: flex;
       flex-direction: column;
-      gap: 15px; /* Butonlar arası boşluk */
-      z-index: 1000; /* Diğer elementlerin üzerinde kalması için */
+      gap: 15px; 
+      z-index: 1000; 
     }
 
     .floating-chat-button {
@@ -607,7 +607,7 @@
 <style>
   .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    padding-bottom: 56.25%; 
     height: 0;
     overflow: hidden;
     max-width: 100%;
@@ -1619,13 +1619,13 @@
 </div>
 
 <script>
-  // Product detail modal script
+  
   document.addEventListener('DOMContentLoaded', function() {
     const productButtons = document.querySelectorAll('.product-detail-btn');
     const productModal = document.getElementById('product-modal');
     const closeModalButton = document.getElementById('close-product-modal');
     
-    // Ürün Bilgileri ve GÖRSEL YOLLARI
+    
     const products = {
   'ktd-gradiyometre-v1': {
     title: 'KTD Gradiyometre V1',
@@ -1706,48 +1706,43 @@
     
 
 
-// === YENİ EKLENEN "YAPIM AŞAMASINDA" POPUP KODU ===
-// Gerekli HTML elementlerini seçiyoruz
+
 const viewAllProductsBtn = document.getElementById('view-all-products-btn');
 const constructionModal = document.getElementById('construction-modal');
 const closeConstructionModalBtn = document.getElementById('close-construction-modal');
 
-// "Tüm Ürünleri Görüntüle" butonuna tıklandığında...
+
 viewAllProductsBtn.addEventListener('click', function(e) {
-    // Linkin varsayılan davranışını (sayfaya gitmesini) engelle
+    
     e.preventDefault(); 
     
-    // Popup'ı göster (içindeki 'hidden' class'ını kaldırarak)
+   
     constructionModal.classList.remove('hidden');
 });
 
-// Kapatma fonksiyonu
+
 function closePopup() {
-    // Popup'ı gizle (tekrar 'hidden' class'ı ekleyerek)
+    
     constructionModal.classList.add('hidden');
 }
 
-// Popup'taki "Kapat" butonuna tıklandığında popup'ı kapat
+
 closeConstructionModalBtn.addEventListener('click', closePopup);
 
-// Popup açıkken klavyeden 'Escape' tuşuna basıldığında popup'ı kapat
+
 document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape' && !constructionModal.classList.contains('hidden')) {
         closePopup();
     }
 });
-// === POPUP KODU SONU ===
 
-
-
-    // Modal açma fonksiyonu
     function openProductModal(productId) {
       const product = products[productId];
       const currentLang = localStorage.getItem('language') || 'tr';
       const mainImage = document.getElementById('modal-main-image');
       const thumbnailContainer = document.getElementById('modal-thumbnail-container');
       
-      // -- Metin içeriklerini doldur --
+      
       document.getElementById('modal-product-title').textContent = product.title;
       document.getElementById('modal-product-description').textContent = currentLang === 'tr' ? product.description : product.descriptionEn;
       const badge = document.getElementById('modal-product-badge');
@@ -1778,23 +1773,23 @@ document.addEventListener('keydown', function(e) {
         el.textContent = el.getAttribute(currentLang === 'tr' ? 'data-tr' : 'data-en');
       });
 
-      // --- GÖRSEL İŞLEMLERİ (TAMAMEN YENİLENDİ) ---
-      thumbnailContainer.innerHTML = ''; // Önceki küçük görselleri temizle
+    
+      thumbnailContainer.innerHTML = ''; 
 
       if (product.images && product.images.length > 0) {
-        // Ürünün görsellerini dinamik olarak oluştur
+       
         product.images.forEach((imageSrc, index) => {
           const img = document.createElement('img');
           img.src = imageSrc;
           img.alt = `${product.title} - Görsel ${index + 1}`;
           img.className = 'thumbnail h-24 object-cover rounded-lg transition-opacity';
           
-          // Her bir küçük görsele tıklama olayı ekle
+          
           img.addEventListener('click', function() {
             mainImage.src = this.src;
             mainImage.alt = this.alt;
             
-            // Seçili olanı güncelle
+            
             thumbnailContainer.querySelectorAll('.thumbnail').forEach(thumb => thumb.classList.remove('selected'));
             this.classList.add('selected');
           });
@@ -1802,7 +1797,7 @@ document.addEventListener('keydown', function(e) {
           thumbnailContainer.appendChild(img);
         });
 
-        // Pop-up açıldığında ilk görseli otomatik olarak seç
+        
         const allThumbnails = thumbnailContainer.querySelectorAll('.thumbnail');
         if(allThumbnails.length > 0) {
             mainImage.src = allThumbnails[0].src;
@@ -1810,17 +1805,17 @@ document.addEventListener('keydown', function(e) {
             allThumbnails[0].classList.add('selected');
         }
       } else {
-        // Eğer ürün için görsel tanımlanmamışsa, ana görseli boşalt
+        
         mainImage.src = ''; 
         mainImage.alt = 'Görsel bulunamadı';
       }
       
-      // Modalı göster
+      
       productModal.classList.remove('hidden');
       document.body.style.overflow = 'hidden';
     }
     
-    // -- Diğer fonksiyon ve olaylar --
+    
     function closeProductModal() {
       productModal.classList.add('hidden');
       document.body.style.overflow = '';
@@ -1849,16 +1844,16 @@ document.addEventListener('keydown', function(e) {
 </script>
 
 <script>
-  // Language switching functionality
+ 
   document.addEventListener('DOMContentLoaded', function() {
-    // Set initial language from localStorage or default to Turkish
+    
     const savedLang = localStorage.getItem('language') || 'tr';
     setLanguage(savedLang);
     
-    // Highlight the active language in the menu
+   
     highlightActiveLanguage(savedLang);
     
-    // Add click events to language selectors
+    
     document.querySelectorAll('.language-selector').forEach(selector => {
       selector.addEventListener('click', function(e) {
         e.preventDefault();
@@ -1869,9 +1864,9 @@ document.addEventListener('keydown', function(e) {
       });
     });
     
-    // Function to set the language
+    
     function setLanguage(lang) {
-      // Update all elements with data-tr and data-en attributes
+      
       document.querySelectorAll('[data-tr], [data-en]').forEach(element => {
         const attr = `data-${lang}`;
         const placeholderAttr = `data-${lang}-placeholder`;
@@ -1893,11 +1888,11 @@ document.addEventListener('keydown', function(e) {
         }
       });
       
-      // Update HTML lang attribute
+     
       document.documentElement.lang = lang;
     }
     
-    // Function to highlight the active language in the menu
+    
     function highlightActiveLanguage(lang) {
       document.querySelectorAll('.language-selector').forEach(selector => {
         if (selector.getAttribute('data-lang') === lang) {
@@ -1910,7 +1905,7 @@ document.addEventListener('keydown', function(e) {
       });
     }
     
-    // Open Modals
+    
     document.getElementById('privacy-policy-link').addEventListener('click', function(e) {
       e.preventDefault();
       document.getElementById('privacy-policy-modal').classList.remove('hidden');
@@ -1926,7 +1921,7 @@ document.addEventListener('keydown', function(e) {
       document.getElementById('cookies-policy-modal').classList.remove('hidden');
     });
 
-    // Close Modals
+    
     document.getElementById('close-privacy-policy').addEventListener('click', function() {
       document.getElementById('privacy-policy-modal').classList.add('hidden');
     });
@@ -1943,7 +1938,7 @@ document.addEventListener('keydown', function(e) {
 
 <script id="navigation-script">
   document.addEventListener('DOMContentLoaded', function() {
-    // Navbar scroll effect
+   
     const header = document.querySelector('header');
     window.addEventListener('scroll', function() {
       if (window.scrollY > 50) {
@@ -1955,7 +1950,7 @@ document.addEventListener('keydown', function(e) {
       }
     });
     
-    // Mobile menu toggle
+    
     const menuButton = document.querySelector('button[aria-label="Menüyü Aç"]');
     const closeButton = document.getElementById('close-menu');
     const mobileMenu = document.getElementById('mobile-menu');
@@ -1968,7 +1963,7 @@ document.addEventListener('keydown', function(e) {
       mobileMenu.classList.add('translate-x-full');
     });
     
-    // Mobile menu links
+    
     const mobileLinks = mobileMenu.querySelectorAll('a');
     mobileLinks.forEach(link => {
       link.addEventListener('click', function() {
@@ -1980,15 +1975,14 @@ document.addEventListener('keydown', function(e) {
 
 <script id="smooth-scroll-script">
   document.addEventListener('DOMContentLoaded', function() {
-    // Smooth scrolling for anchor links
+    
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function(e) {
         const targetId = this.getAttribute('href');
         
-        // Sadece linkin gerçekten bir sayfa içi hedefi varsa yumuşak kaydırma yap.
-        // Bu kontrol, href'i sonradan değişen (örneğin satın al) butonlarını etkilemesini engeller.
+        
         if (targetId.length > 1 && document.querySelector(targetId)) {
-          e.preventDefault(); // Linke gitmeyi sadece bu koşulda engelle.
+          e.preventDefault(); 
           
           window.scrollTo({
             top: document.querySelector(targetId).offsetTop - 80,
@@ -2076,11 +2070,7 @@ document.addEventListener('DOMContentLoaded', function() {
 `;
 
         try {
-            // ========================================================================
-            // ÖNEMLİ DÜZENLEME: API ANAHTARI
-            // Google AI Studio'dan aldığınız API anahtarını aşağıdaki tırnak işaretleri
-            // arasına yapıştırmanız gerekmektedir.
-            // ========================================================================
+          
             const apiKey = "AIzaSyD2CB-gE2JXSr0tb2NFaVoUoc6eeCV5G8E";
 
             if (apiKey === "YAPAY_ZEKA_API_ANAHTARINIZI_BURAYA_GIRIN") {
